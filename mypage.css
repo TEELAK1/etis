@@ -1,0 +1,119 @@
+h1{
+color: red;
+text-align: center;
+font-size: 80px;
+font-family  'roboto' , sams-serif;
+margin-top: 20px;
+margin-buttom: 10px;
+}
+body{
+background-color:INDIGO;
+}
+@media screen and (max-width: 1127px){
+body {
+background-color: VIOLET;
+}
+margin: 0;
+padding: 20px;
+font-family  'roboto' , sams-serif;
+}
+h2{
+color: RED;
+text-align: center;
+font-size: 50px;
+font-family  'roboto' , sams-serif;
+margin-top: 30px;
+margin-buttom: 15px;
+}
+h3 {color: red;
+text-align: center;
+font-size: 25px;
+font-family  'roboto' , sams-serif;
+margin-top: 15px;
+margin-buttom: 15px;
+}
+h4 {
+color: RED;
+text-align: center;
+font-size: 40px;
+font-family  'roboto' , sams-serif;
+margin-top: 35px;
+margin-buttom: 15px;
+}
+
+
+
+
+header {
+width: 100%;
+}
+ul  {
+list-style: none;
+}
+#nav_bar  {
+float: center;
+}
+#nav_bar li  {
+list-style: none;
+display: inline-block;
+padding: 8px;
+}
+a {
+text-decoration: none;
+color: inherit;
+}
+li.nav-links a:hover {
+text-decoration: underline;
+}
+.mylogo #my_logo {
+text-align: center;
+display: block;
+margin: 0 auto;
+clear: both;
+padding-top: 0 auto;
+padding-bottom: 0 auto;
+}
+
+.mylogo1{
+text-align: center;
+}
+.form {
+text-align: center;
+}
+#txtsearch {
+width: 450px;
+line-height: 32px;
+padding: 50px 100px;
+}
+.form #txtsearch {
+padding: 0 20px;
+}
+
+#txtsearch:hover {
+border-color: #e4e4e4;
+padding-top 0;
+}
+.buttons {
+text-align: center;
+padding-top: 29px;
+margin-bottom: 30px;
+}
+
+.current-user-picture {
+align: center;
+  height: 100px;
+margin-top: 30px;
+  border-radius: 35px;
+margin-bottom: 35;
+}
+.myvideo #my_video {
+text-align: center;
+display: block;
+margin: 0 auto;
+clear: both;
+padding-top: 12px;
+padding-bottom: 20px;
+}
+
+
+
