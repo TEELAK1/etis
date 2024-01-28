@@ -1,11 +1,34 @@
-h1{
-color: red;
-text-align: center;
-font-size: 80px;
-font-family  'roboto' , sams-serif;
-margin-top: 20px;
-margin-buttom: 10px;
-}
+
+   body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            transition: background-color 0.3s ease;
+        }
+
+        .fullscreen-container {
+            display: flex;
+ margin: 0;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .toggle-btn {
+            background-color: #f1f1f1;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+       
+transition: background-color 0.3s ease;
+ margin: 0;
+        }
+
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+ margin: 0;
+        }
 body{
 background-color:INDIGO;
 }
@@ -17,6 +40,14 @@ margin: 0;
 padding: 20px;
 font-family  'roboto' , sams-serif;
 }
+h1{
+  color: red;
+  text-align: center;
+  font-size: 80px;
+  font-family  'roboto' , sams-serif;
+  margin-top: 20px;
+  margin-buttom: 10px;
+  }
 h2{
 color: RED;
 text-align: center;
@@ -115,10 +146,9 @@ padding-top: 12px;
 padding-bottom: 20px;
 }
 
+
 p{
 text-align: center;
-front-size: 20px;
+front-size: 10px;
 color: red;
 }
-
-
