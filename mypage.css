@@ -30,7 +30,7 @@ transition: background-color 0.3s ease;
  margin: 0;
         }
 body{
-background-color:INDIGO;
+background-color:rgb(178, 167, 185);
 }
 @media screen and (max-width: 1127px){
 body {
@@ -49,14 +49,14 @@ h1{
   margin-buttom: 10px;
   }
 h2{
-color: RED;
+color: yellow;
 text-align: center;
 font-size: 50px;
 font-family  'roboto' , sams-serif;
 margin-top: 30px;
 margin-buttom: 15px;
 }
-h3 {color: red;
+h3 {color: GREEN;
 text-align: center;
 font-size: 25px;
 font-family  'roboto' , sams-serif;
@@ -64,7 +64,7 @@ margin-top: 15px;
 margin-buttom: 15px;
 }
 h4 {
-color: RED;
+color:red (253, 219, 0);
 text-align: center;
 font-size: 40px;
 font-family  'roboto' , sams-serif;
@@ -108,27 +108,7 @@ padding-bottom: 0 auto;
 .mylogo1{
 text-align: center;
 }
-.form {
-text-align: center;
-}
-#txtsearch {
-width: 450px;
-line-height: 32px;
-padding: 50px 100px;
-}
-.form #txtsearch {
-padding: 0 20px;
-}
 
-#txtsearch:hover {
-border-color: #e4e4e4;
-padding-top 0;
-}
-.buttons {
-text-align: center;
-padding-top: 29px;
-margin-bottom: 30px;
-}
 
 .current-user-picture {
 align: center;
@@ -151,4 +131,22 @@ p{
 text-align: center;
 front-size: 10px;
 color: red;
+}
+.button {
+  padding: 8px 16px; /* Smaller padding */
+  font-size: 14px; /* Smaller font size */
+  color: white;
+  background: linear-gradient(45deg, #8f7979, #000000); /* Gradient background */
+  border: none;
+  border-radius: 25px; /* More rounded corners */
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background 0.3s, transform 0.3s; /* Smooth transitions */
+}
+.button:hover {
+  background: linear-gradient(45deg, #ee0014, #8f898f); /* Reverse gradient on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
 }
