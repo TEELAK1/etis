@@ -1,0 +1,62 @@
+/* Parent container to center the board */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #007bff;onal background color */
+
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 5px;
+    background-attachment: fixed;
+    background-color:violet;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(3, 3, 3, 0.337); /* Optional for cell background */
+}
+
+.piece {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player1 {
+    background-color: blue;
+    color: white;
+}
+
+.player2 {
+    background-color: red;
+    color: white;
+}
+
+.selected {
+    outline: 3px solid rgb(242, 246, 240);
+    background-color: rgb(159, 0, 238);
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 0cqi 0 0.5em rgb(224, 18, 18);
+    background-color: rgb(159, 209, 41);
+    text-decoration: dotted;
+}
